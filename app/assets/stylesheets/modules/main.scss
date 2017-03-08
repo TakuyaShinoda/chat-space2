@@ -85,6 +85,7 @@
   height: 60px;
   padding: 20px 0 20px 40px;
   background-color: #aaaaaa;
+  position: relative;
 }
 
 textarea {
@@ -94,6 +95,12 @@ textarea {
   padding-left: 20px;
   border: none;
   float: left;
+}
+
+.bottom-body a {
+  position: absolute;
+  top: 40px;
+  right: 155px;
 }
 
 input {
