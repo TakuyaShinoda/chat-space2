@@ -1,0 +1,113 @@
+.chat-main {
+  width: calc(100% - 300px);
+  float: right;
+}
+
+.main-top {
+  height: 100px;
+  border-bottom: solid #eeeeee;
+  border-width: 1px;
+}
+
+.top-left {
+  height: 100px;
+  width: 500px;
+  float: left;
+}
+
+.top-group-name {
+  margin: 30px 0 0 40px;
+}
+
+.top-group-name h2 {
+  color: #333333;
+  font-size: 20px;
+}
+
+.top-group-member {
+  margin: 15px 0 0 40px;
+}
+
+.top-group-member p{
+  color: #999999;
+  font-size: 12px;
+}
+
+.top-right {
+  height: 40px;
+  width: 30px;
+  margin-top: 28px;
+  margin-right: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  border: solid;
+  float: right;
+  color: #38aef0;
+}
+
+.main-messages {
+  height: calc(100vh - 246px);
+  padding: 45px 40px 0 40px;
+}
+
+.main-message {
+  padding-bottom: 40px;
+}
+
+.message-info {
+  height: 20px;
+}
+
+.message-name {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.message-date {
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.message-text {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.main-bottom {
+  height: 100px;
+}
+
+.bottom-body {
+  height: 60px;
+  padding: 20px 0 20px 40px;
+  background-color: #aaaaaa;
+  position: relative;
+}
+
+textarea {
+  height: 60px;
+  width: calc(100% - 160px);
+  line-height: 60px;
+  padding-left: 20px;
+  border: none;
+  float: left;
+}
+
+.bottom-body a {
+  position: absolute;
+  top: 40px;
+  right: 155px;
+}
+
+input {
+  height: 60px;
+  width: 100px;
+  border: none;
+  background-color: #38aef0;
+  color: #ffffff;
+  float: left;
+}
