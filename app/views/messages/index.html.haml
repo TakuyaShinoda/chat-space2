@@ -1,0 +1,56 @@
+.chat
+
+  .chat-side
+    .chat-user
+      .side-name
+        %h5 SHINODA
+
+    %ul.side-groups
+      %li.side-group
+        %p.group-name GROUP1
+        %p.last-message まだメッセージはありません。
+      %li.side-group
+        %p.group-name GROUP2
+        %p.last-message まだメッセージはありません。
+      %li.side-group
+        %p.group-name GROUP3
+        %p.last-message まだメッセージはありません。
+
+  .chat-main
+
+    .main-top
+      .top-left
+        .top-group-name
+          %h2 GROUP1
+        .top-group-member
+          %p Member: Shinoda
+      .top-right
+        %a.edit-button Edit
+
+    %ul.main-messages
+      %li.main-message
+        .message-info
+          %p.message-name SHINODA
+          %p.message-date 2017/03/06
+        %p.message-text なるほど。
+      %li.main-message
+        .message-info
+          %p.message-name SHINODA
+          %p.message-date 2017/03/06
+        %p.message-text なるほど。
+      %li.main-message
+        .message-info
+          %p.message-name SHINODA
+          %p.message-date 2017/03/06
+        %p.message-text なるほど。
+
+    .main-bottom
+      .bottom-body
+        %textarea(placeholder="type a message")
+        %a
+          %i.fa.fa-picture-o
+        %input(type="submit" value="Send")
+.chat-chat
+
+
+
